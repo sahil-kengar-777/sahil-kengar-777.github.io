@@ -1,0 +1,170 @@
+*{
+    
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nv-1{
+    background-color: transparent !important;
+}
+.nv-1 .active{
+    background-color: #fff !important;
+}
+.hr{
+    margin-right: 0;
+}
+ #overlay{
+    position: absolute !important;
+    left: 180px;
+    z-index: 1;
+}
+.carousel-container{
+    position: relative;
+} 
+.carousel {
+    z-index: 0;
+}  
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.navbar-nav a{
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover{
+    color:fff;
+}
+.navbar .navbar-nav .dropdown-menu-dar {
+   z-index: 10; 
+}
+.navbar.active {
+    background-color: #fff !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  }
+  
+.navbar.active a {
+    color: #000;
+  }
+  
+.navbar.active .container {
+    padding: 10px 0;
+}
+.navbar-toggler-icon.container.active{
+    margin-left: 20px;
+}
+  
+.w-100{
+    height:100vh;
+}
+.menu{
+    height:30px;
+    width: 30px;
+}
+.serv{
+    margin: 2px;
+}
+
+.border-left{
+    border-left: 10px solid rgb(231, 240, 56);
+}
+.main_heading{
+    margin-top: 80px;
+}
+.disabled{
+    margin-bottom: 0rem !important;
+}
+.border-left-sm{
+    border-left: 5px solid rgb(231, 240, 56);
+    
+}
+.g-5{
+    margin: 0 60px;
+}
+.card:hover{
+    background-color: rgb(231, 240, 56);
+}
+.yellow {
+    color: rgb(231, 240, 56);
+}
+.bg-img{
+    background: url("https://www.wightmanbuilding.com.au/wp-content/uploads/2017/02/construction-tools-dark-background.jpg") no-repeat; 
+    background-size: cover;
+    z-index: 0;
+}
+.by:hover{
+    color: rgb(231, 240, 56);
+}
+.pad-start{
+    padding-left: 100px;
+}
+.btn-arr{
+    border: 3px solid rgb(231, 240, 56);
+    background-color: transparent !important; 
+}
+.btn-arr:hover{
+    background-color: rgb(231, 240, 56)!important;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+footer a:hover{
+    color: rgb(231, 240, 56);
+}
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.b-1{
+    background-color: black;
+}
+.b-2{
+    background-color: #1a1818;
+}
+.b-3{
+    background-color: #2b2626;
+}
+.img-container {
+    position: relative;
+    display: inline-block;
+
+}
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+  
+.img-container:hover .img-overlay {
+    opacity: 1;
+}
+.blog{
+    padding: 10px;
+    background-color: rgb(231, 240, 56);
+}
+@media (max-width: 767px){
+    .pad-start{
+        padding-left: 50px;
+    }
+}
+
